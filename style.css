@@ -1,8 +1,3 @@
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 :root{
   --croissant-one: 'Croissant One', cursive;
   --montserrat: 'Montserrat', sans-serif;
@@ -42,7 +37,7 @@ section{
   width: 50%;
 }
 
-.col-50 img{
+.top-banner-img{
   width: 80%;
   float: right;
 }
@@ -68,4 +63,17 @@ section{
 
 .link-btn:hover{
   background-image: linear-gradient(to bottom, #fc6354, #f78c6b);
+}
+
+.dream-section{
+  background-image: url(images/dream-bg.png);
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 70px 0;
+}
+
+.dream-img{
+  width: 80%;
+  float: left;
 }
